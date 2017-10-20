@@ -1,5 +1,7 @@
 # PieChopper [![Travis CI](https://travis-ci.org/cypress-io/cypress-example-piechopper.svg?branch=master)](https://travis-ci.org/cypress-io/cypress-example-piechopper) [![Circle CI](https://circleci.com/gh/cypress-io/cypress-example-piechopper.svg?style=svg)](https://circleci.com/gh/cypress-io/cypress-example-piechopper) [![Build status](https://ci.appveyor.com/api/projects/status/o6522037ibcaluj6?svg=true)](https://ci.appveyor.com/project/cypress-io/cypress-example-piechopper)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/cypress-io/cypress-example-piechopper.svg)](https://greenkeeper.io/)
+
 ![piechopper-gif](https://cloud.githubusercontent.com/assets/1268976/12985444/ad14159c-d0c0-11e5-8e50-2b64a1d389ac.gif)
 
 ## Installing
