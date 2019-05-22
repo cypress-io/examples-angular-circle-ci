@@ -28,7 +28,7 @@
     "grunt-contrib-cssmin": "0.7.0",
     "grunt-contrib-uglify": "3.3.0",
     "grunt-contrib-watch": "0.5.3",
-    "grunt-exec": "0.4.7",
+    "grunt-exec": "3.0.0",
     "grunt-ngmin": "0.0.3",
     "grunt-preprocess": "3.0.1",
     "grunt-ssh": "0.9.1",
