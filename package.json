@@ -30,7 +30,7 @@
     "grunt-contrib-watch": "0.5.3",
     "grunt-exec": "0.4.7",
     "grunt-ngmin": "0.0.3",
-    "grunt-preprocess": "3.0.1",
+    "grunt-preprocess": "5.1.0",
     "grunt-ssh": "0.9.1",
     "node-sass": "4.12.0",
     "nodemon": "1.17.5",
