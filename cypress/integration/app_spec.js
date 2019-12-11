@@ -1,5 +1,3 @@
-
-
 describe('PieChopper', function(){
   beforeEach(function(){
     // Visiting before each test ensures the app
