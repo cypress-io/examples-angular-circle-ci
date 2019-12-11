@@ -81,7 +81,7 @@ describe('PieChopper', function(){
 
       // https://on.cypress.io/invoke
       // https://on.cypress.io/then
-      cy.get('#model-selection-section').should(beScrolledToTop )
+      cy.get('#model-selection-section').should(beScrolledToTop)
     })
   })
 
