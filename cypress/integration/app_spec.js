@@ -76,12 +76,17 @@ describe('PieChopper', function(){
       //
       // to figure out that the window is being scrolled we can simply
       // check the '#model-selection-section' top offset and once that equals
-      // the windows scrollY we know its been scrolled to the top
+      // the windows scrollY we know its been scrolled to the top (within 1 px)
       cy.contains('button', 'Begin').click()
 
       // https://on.cypress.io/invoke
       // https://on.cypress.io/then
-      cy.get('#model-selection-section').should(beScrolledToTop)
+      cy.get('#model-selection-section').invoke('offset').then(function(offset){
+          // using a cy.then here to create a closure of the offset
+
+          // https://on.cypress.io/window
+          cy.window().its('scrollY').should('closeTo', offset.top, 1)
+        })
     })
   })
 
@@ -365,9 +370,3 @@ describe('PieChopper', function(){
     })
   })
 })
-
-const beScrolledToTop = ($el) => {
-  const offset = $el.offset()
-  const win = $el[0].ownerDocument.defaultView
-  expect(win.scrollY).closeTo(offset.top, 1)
-}
