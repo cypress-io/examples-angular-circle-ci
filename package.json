@@ -18,7 +18,7 @@
     "test:ci": "run-p --race server cypress:run"
   },
   "devDependencies": {
-    "bower": "1.8.8",
+    "bower": "1.8.12",
     "cypress": "6.4.0",
     "grunt": "0.4.5",
     "grunt-cli": "0.1.13",
